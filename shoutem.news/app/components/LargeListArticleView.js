@@ -32,7 +32,6 @@ export class LargeListArticleView extends ArticleView {
           <Row>
             <View styleName="vertical stretch space-between">
               <Title numberOfLines={2}>{title}</Title>
-              {dateInfo}
             </View>
           </Row>
         </View>

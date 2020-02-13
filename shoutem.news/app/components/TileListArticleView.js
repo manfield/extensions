@@ -27,7 +27,6 @@ export class TileListArticleView extends ArticleView {
         <ImageBackground styleName="large-banner placeholder" source={{ uri: imageUrl }}>
           <Tile>
             <Title numberOfLines={3}>{title.toUpperCase()}</Title>
-            {dateInfo}
           </Tile>
         </ImageBackground>
         <Divider styleName="line" />

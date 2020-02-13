@@ -76,9 +76,6 @@ export class ArticleDetailsScreen extends PureComponent {
         <Title>{article.title.toUpperCase()}</Title>
         <View styleName="horizontal md-gutter-top">
           <Caption numberOfLines={1}>{article.newsAuthor}</Caption>
-          <Caption styleName="md-gutter-left">
-            {moment(article.timeUpdated).fromNow()}
-          </Caption>
         </View>
       </Tile>
     );
