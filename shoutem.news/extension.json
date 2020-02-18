@@ -1,5 +1,5 @@
 {
-  "name": "manf.news-futura",
+  "name": "news-futura",
   "version": "2.1.0",
   "platform": "2.1.*",
   "title": "News",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shoutem/extensions"
+    "url": "https://github.com/manfield/extensions.git"
   },
   "dependencies": [
     "shoutem.layouts",
